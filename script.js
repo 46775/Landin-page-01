@@ -18,5 +18,10 @@ tl.to(".imgContainer", {
     top: "-100px",
     ease: Expo.easeInOut,
     stagger:2
+},'a')
+.to(".text p",{
+    delay:2,
+    top:"-100px",
+    ease: Expo.easeInOut,
+    stagger:2
 },'a');
-
